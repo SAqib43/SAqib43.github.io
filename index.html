@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proposal</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #ff3399;
+    }
+
+    .message {
+      margin-top: 50px;
+      font-size: 24px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #ff3399;
+      color: #ffffff;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #cc0066;
+    }
+  </style>
+</head>
+<body>
+  <h1>Will you be my friend?</h1>
+  <div class="message">If you beleive in love from first sight,then open your eyes because I am feeling you❤
+    <p>Dear [UMAIMA],</p>
+    <p>I have been fortunate to know you and share many wonderful </p>
+    <p>Will you be my friend?</p>
+  </div>
+  <button onclick="showResponse()">tell me in Inbox</button>
+
+  <script>
+    function showResponse() {
+      var response = prompt("Please enter your response (Yes/No):");
+      if (response && response.toLowerCase() === 'yes') {
+        alert("Congratulations! You have made me the happiest person alive!");
+      } else {
+        alert("I understand. Thank you for your honesty.");
+      }
+    }
+  </script>
+</body>
+</html>
